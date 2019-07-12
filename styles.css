@@ -6,3 +6,43 @@ h1 {
 p {
   color: red;
 }
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+th {
+  background-color: lightgray;
+}
+
+#top {
+  font-size: 36px;
+}
+
+#middle {
+  font-size: 24px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+/* <style> */
+ /* div {
+   background-color: teal;
+   width: 500px;
+   height: 400px;
+   margin: 30px;
+   padding: 20px;
+   font-family: Arial, sans-serif;
+   font-size: 28px;
+   font-weight: bold;
+   border: 3px solid blue;
+ }
+</style> */
