@@ -2,13 +2,32 @@
 <html>
     <head>
         <title>Ramsvikveien 78A</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
      <link rel="stylesheet" href="styles.css">
 
+     <style>
+        h1 {
+          color: black;
+      }
+     </style>
+
     </head>
+
+    <header>
+      <a href="projects.html">Click here for projects in Ramsvika</a>
+    </header>
+
+
 
     <body>
       <h1> Ramsvikveien 78A</h1>
+      <p> To check out selection</p>
+
+      <nav>
+        <a href="#section1">Link to section 1</a>
+      </nav>
+
       <img src="flyfoto.jpg" width="70%">
 
       <h2> Link to maps: https://kart.finn.no/ </h2>
@@ -17,13 +36,35 @@
       </div>
 
       <form>
-        <input type="text" placeholder="Full Name" name="name">
+        <input name="name" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="Password">
         <button>Submit! </button>
       </form>
+
+      <form>
+        Favorite color?
+        <input name="color" type="radio" value="red"> Red
+        <input name="color" type="radio" value="green"> Green
+        <input name="color" type="radio" value="Blue"> Blue
+        <input name="color" type="radio" value="other"> Other
+      </form>
+
+      <form>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+          <option value="Afganistan">
+          <option value="Norway">
+          <option value="USA">
+        </datalist>
+
+      </form>
+
 
       <div id="middle">
         This is the <span class="name">middle</span> of my web page.
       </div>
+
+      <h2 id="section1">Section 1</h2>
 
       <table>
         <tr>
@@ -60,5 +101,12 @@
           Nye prosjekter planlagt i Ramsvika.
         </div>
 
+        <p> Ramsvika ligger rett nord for Tofte </p>
+        <p class="screen-only"> Denne setningen vises kun på skjermen. Vil ikke bli med i en print" </p>
     </body>
+
+    <footer>
+      <p></p>
+      Copywright Tore
+    </footer>
 </html>
